@@ -29,8 +29,7 @@
 
     $app->post('/game', function() use ($app) {
         $creatures = $_SESSION['creature-life'];
-        $creature = $creatures[0] 
-        }
+        $creature = $creatures[0];
 
         return $app['twig']->render('game.html.twig', array('start_game' => $creature));
     });

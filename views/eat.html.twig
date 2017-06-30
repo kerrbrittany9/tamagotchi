@@ -3,12 +3,10 @@
     <title>Supper Time!</title>
 </head>
 <body>
-
-        <h1> {{ tom.getName }} </h1> has eaten a meal!
-        <h2> Food score: {{ tom.setFood }} {{tom.getFood}} </h2>
-        <h4> Sleep score: {{ tom.reduceSleep }} {{tom.getSleep}} </h4>
-        <h4> Play score: {{ tom.reducePlay }} {{tom.getPlay}} </h4>
-
+    <h1> {{ tom.getName }} </h1> has eaten a meal!
+    <h2> Food score: {{ tom.setFood }} {{tom.getFood }} </h2>
+    <h4> Sleep score: {{ tom.reduceSleep }} {{tom.getSleep }} </h4>
+    <h4> Play score: {{ tom.reducePlay }} {{tom.getPlay }} </h4>
     <form action='/game' method='post'>
         <button type='submit' class='btn'>Continue</button>
     </form>

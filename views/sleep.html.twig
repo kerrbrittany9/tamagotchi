@@ -3,12 +3,10 @@
     <title>Naptime!</title>
 </head>
 <body>
-
-        <h1> {{ tom.getName }} </h1> has slept a wink!
-        <h2> Sleep score: {{ tom.setSleep }} {{tom.getSleep}} </h2>
-        <h4> Play score: {{ tom.reducePlay }} {{tom.getPlay}} </h4>
-        <h4> Food score: {{ tom.reduceFood }} {{tom.getFood}} </h4>
-
+    <h1> {{ tom.getName }} </h1> has slept a wink!
+    <h2> Sleep score: {{ tom.setSleep }} {{ tom.getSleep }} </h2>
+    <h4> Play score: {{ tom.reducePlay }} {{ tom.getPlay }} </h4>
+    <h4> Food score: {{ tom.reduceFood }} {{ tom.getFood }} </h4>
 
     <form action='/game' method='post'>
         <button type='submit' class='btn'>Continue</button>
