@@ -5,7 +5,9 @@
 <body>
 
         <h1> {{ tom.getName }} </h1> has received extra play time!
-        <h2> {{ tom.setPlay }} {{tom.getPlay}} </h2>
+        <h2> Play score: {{ tom.setPlay }} {{tom.getPlay}} </h2>
+        <h4> Sleep score: {{ tom.reduceSleep }} {{tom.getSleep}} </h4>
+        <h4> Food score: {{ tom.reduceFood }} {{tom.getFood}} </h4>
 
     <form action='/game' method='post'>
         <button type='submit' class='btn'>Continue</button>

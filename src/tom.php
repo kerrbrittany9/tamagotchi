@@ -34,6 +34,21 @@
             $this->name = (string) 1;
         }
 
+        function reduceSleep()
+        {
+            $this->sleep -= (float) 2;
+        }
+
+        function reducePlay()
+        {
+            $this->play -= (float) 1;
+        }
+
+        function reduceFood()
+        {
+            $this->food -= (float) 3;
+        }
+
         function getFood()
         {
             return $this->food;
